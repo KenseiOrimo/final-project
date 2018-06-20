@@ -1,0 +1,248 @@
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.hidden1 {
+  display: none;
+  text-align: center;
+}
+
+.hidden2 {
+  display: none;
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+body {
+  color: white;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #003366;
+}
+
+h1 {
+  font-size: 52px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 43px;
+  text-align: center;
+}
+
+#something {
+
+  margin-left: 10%;
+}
+#something:hover{
+  background-color: hotpink;
+}
+
+.addPlayer {
+  padding-top: 15px;
+  font-size: 40px;
+  color: red;
+  float: right;
+  background-color:  #003366;
+   font-size: 37px;
+   color: #799dec;
+   text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #6182ca, 0px 2px 0px #4f6aa7, 0px 3px 0px #5470ad;
+   float: right;
+   margin-right: 9%;
+   border-style: none;
+}
+
+.addPlayer:hover {
+  color: lightblue;
+}
+
+
+.playerShow {
+  font-size: 20px;
+
+}
+
+.smallCard {
+  height: 20px;
+  width: auto;
+}
+
+.nextPlayer {
+  font-size: 40px;
+  color: red;
+  float: right;
+  background-color:  #003366;
+   font-size: 37px;
+   color: #799dec;
+   text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #6182ca, 0px 2px 0px #4f6aa7, 0px 3px 0px #5470ad;
+   float: right;
+   margin-right: 9%;
+   border-style: none;
+   padding: 30px;
+}
+.nextPlayer:hover{
+color: lightblue;
+}
+
+
+input {
+  width: 60%;
+  height: 40px;
+  -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+margin: 20px;
+font-size: 30px;
+text-align: center;
+}
+
+
+
+.addPlayer:active {
+  top: 4px;
+  text-shadow: none;
+}
+
+.gameStartDiv {
+  text-align: center;
+}
+
+.gameStart {
+  margin-top: 20px;
+   font-size: 40px;
+   font-weight: bold;
+   padding: 10px 30px;
+   border-radius: 10px;
+   color: #003366;
+}
+
+.gameStart:hover {
+  color: white;
+  background-color: #E85353;
+  border-color: #E85353;
+}
+.main-contents {
+    position: relative;
+    width: 100%;
+}
+.circle-box {
+    position: relative;
+    margin: 0 auto;
+
+      height: 580px;
+      width: 535px;
+
+}
+img.trumpBack {
+   width: 120px;
+  height: 180px;
+   position: absolute;
+}
+
+h5 {
+  font-size: 25px;
+  color: red;
+  text-align: center;
+}
+
+.kingCrown {
+  margin-left: 42%;
+  margin-top: 15%;
+  height: 200px;
+  width: auto;
+}
+
+.thirdCrown {
+  margin-top: 20px;
+  height: 50px;
+  width: auto;
+}
+
+.pickedContent {
+  display: none;
+  font-size: 25px;
+}
+.pickedContent p{
+  text-align: left;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.cardTitle {
+  font-weight: 600;
+  color: red;
+  padding: 30px;
+}
+
+ul {
+  text-align: center;
+}
+
+.cardWrapper {
+  display: inline-block;
+  text-align: center;
+}
+@media only screen and (max-width: 700px) {
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 24px;
+}
+  #something {
+ color: white;
+ margin-top: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: #003366;
+
+}
+#something:hover{
+  color: white;
+  background-color: #E85353;
+  border-color: #E85353;
+}
+
+.gameStart {
+  color: white;
+  background-color: #E85353;
+  border-color: #E85353;
+}
+
+
+.addPlayer{
+  font-size: 30px;
+  float:none;
+   margin-right: 0;
+   padding-top: o;
+}
+
+.thirdCrown {
+  height: 60px;
+  width: auto;
+}
+h5 {
+  font-size: 20px;
+}
+
+img.trumpBack {
+   width: 60px;
+  height: 90px;
+   position: absolute;
+}
+.cardWrapper {
+  width:265px;
+  margin:0 auto;
+}
+}
