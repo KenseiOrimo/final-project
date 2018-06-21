@@ -186,6 +186,6 @@ $(".nextPlayer").click(function(){
 
 $( ".trumpBack" ).draggable ({
   stop: function(event, ui) {
-    debugger;
+               $(this).click()
   }
 });
